@@ -17,9 +17,9 @@ with ***[express.js](https://github.com/expressjs/)*** middlewares.
 
 ```bash
 # if using npm
-npm i vite-plugin-mock-server -D
+npm i vite-plugin-mock-server-esm -D
 # if using yarn
-yarn add vite-plugin-mock-server -D
+yarn add vite-plugin-mock-server-esm -D
 ```
 
 ### Run example
@@ -39,7 +39,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import bodyParser from 'body-parser'
 import cookieParser from 'cookie-parser'
-import mockServer from 'vite-plugin-mock-server'
+import mockServer from 'vite-plugin-mock-server-esm'
 
 export default defineConfig({
   plugins: [
@@ -185,7 +185,7 @@ export default mocks
 
 // example/mock/apis/es2.mock.ts
 
-import { MockHandler } from 'vite-plugin-mock-server'
+import { MockHandler } from 'vite-plugin-mock-server-esm'
 
 export default (): MockHandler[] => [
   {

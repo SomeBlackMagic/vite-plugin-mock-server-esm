@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-mock-server-esm",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "Vite mock server plugin",
   "main": "dist/index.js",
   "scripts": {
